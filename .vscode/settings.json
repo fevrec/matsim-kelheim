@@ -1,0 +1,4 @@
+{
+    "maven.executable.options": "-DskipTests=true",
+    "java.compile.nullAnalysis.mode": "automatic"
+}

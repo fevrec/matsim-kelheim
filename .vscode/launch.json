@@ -1,0 +1,234 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "PotentialServiceAreaAnalysis",
+            "request": "launch",
+            "mainClass": "org.matsim.analysis.PotentialServiceAreaAnalysis",
+            "projectName": "matsim-kelheim"
+        },
+        {
+            "type": "java",
+            "name": "BlockedInfrastructureRouteAnalysis",
+            "request": "launch",
+            "mainClass": "org.matsim.analysis.postAnalysis.BlockedInfrastructureRouteAnalysis",
+            "projectName": "matsim-kelheim"
+        },
+        {
+            "type": "java",
+            "name": "GenerateKelheimAnalysisNetwork",
+            "request": "launch",
+            "mainClass": "org.matsim.analysis.postAnalysis.GenerateKelheimAnalysisNetwork",
+            "projectName": "matsim-kelheim"
+        },
+        {
+            "type": "java",
+            "name": "NoiseAverageAnalysis",
+            "request": "launch",
+            "mainClass": "org.matsim.analysis.postAnalysis.NoiseAverageAnalysis",
+            "projectName": "matsim-kelheim"
+        },
+        {
+            "type": "java",
+            "name": "TransformCoordinatesTripCSV",
+            "request": "launch",
+            "mainClass": "org.matsim.analysis.postAnalysis.TransformCoordinatesTripCSV",
+            "projectName": "matsim-kelheim"
+        },
+        {
+            "type": "java",
+            "name": "VehiclesRoadUsageAnalysis",
+            "request": "launch",
+            "mainClass": "org.matsim.analysis.postAnalysis.VehiclesRoadUsageAnalysis",
+            "projectName": "matsim-kelheim"
+        },
+        {
+            "type": "java",
+            "name": "CalcEuclideanDistances",
+            "request": "launch",
+            "mainClass": "org.matsim.analysis.postAnalysis.drt.CalcEuclideanDistances",
+            "projectName": "matsim-kelheim"
+        },
+        {
+            "type": "java",
+            "name": "DrtPostProcessingAverageAnalysis",
+            "request": "launch",
+            "mainClass": "org.matsim.analysis.postAnalysis.drt.DrtPostProcessingAverageAnalysis",
+            "projectName": "matsim-kelheim"
+        },
+        {
+            "type": "java",
+            "name": "DrtServiceQualityAnalysis",
+            "request": "launch",
+            "mainClass": "org.matsim.analysis.postAnalysis.drt.DrtServiceQualityAnalysis",
+            "projectName": "matsim-kelheim"
+        },
+        {
+            "type": "java",
+            "name": "DrtVehiclesRoadUsageAnalysis",
+            "request": "launch",
+            "mainClass": "org.matsim.analysis.postAnalysis.drt.DrtVehiclesRoadUsageAnalysis",
+            "projectName": "matsim-kelheim"
+        },
+        {
+            "type": "java",
+            "name": "PlotDrtStoppingTasks",
+            "request": "launch",
+            "mainClass": "org.matsim.analysis.postAnalysis.drt.PlotDrtStoppingTasks",
+            "projectName": "matsim-kelheim"
+        },
+        {
+            "type": "java",
+            "name": "EmissionsPostProcessingAverageAnalysis",
+            "request": "launch",
+            "mainClass": "org.matsim.analysis.postAnalysis.emissions.EmissionsPostProcessingAverageAnalysis",
+            "projectName": "matsim-kelheim"
+        },
+        {
+            "type": "java",
+            "name": "KelheimOfflineAirPollutionAnalysisByEngineInformation",
+            "request": "launch",
+            "mainClass": "org.matsim.analysis.postAnalysis.emissions.KelheimOfflineAirPollutionAnalysisByEngineInformation",
+            "projectName": "matsim-kelheim"
+        },
+        {
+            "type": "java",
+            "name": "OutputPlansScoringAnalysis",
+            "request": "launch",
+            "mainClass": "org.matsim.analysis.postAnalysis.scoring.OutputPlansScoringAnalysis",
+            "projectName": "matsim-kelheim"
+        },
+        {
+            "type": "java",
+            "name": "CongestionAnalysis",
+            "request": "launch",
+            "mainClass": "org.matsim.analysis.postAnalysis.traffic.CongestionAnalysis",
+            "projectName": "matsim-kelheim"
+        },
+        {
+            "type": "java",
+            "name": "ActivityLengthAnalysis",
+            "request": "launch",
+            "mainClass": "org.matsim.analysis.preAnalysis.ActivityLengthAnalysis",
+            "projectName": "matsim-kelheim"
+        },
+        {
+            "type": "java",
+            "name": "DepartureTimeAnalysis",
+            "request": "launch",
+            "mainClass": "org.matsim.analysis.preAnalysis.DepartureTimeAnalysis",
+            "projectName": "matsim-kelheim"
+        },
+        {
+            "type": "java",
+            "name": "ModeShareAnalysis",
+            "request": "launch",
+            "mainClass": "org.matsim.analysis.preAnalysis.ModeShareAnalysis",
+            "projectName": "matsim-kelheim"
+        },
+        {
+            "type": "java",
+            "name": "PopulationAnalysis",
+            "request": "launch",
+            "mainClass": "org.matsim.analysis.preAnalysis.PopulationAnalysis",
+            "projectName": "matsim-kelheim"
+        },
+        {
+            "type": "java",
+            "name": "CreateAverageDashboards",
+            "request": "launch",
+            "mainClass": "org.matsim.dashboard.CreateAverageDashboards",
+            "projectName": "matsim-kelheim"
+        },
+        {
+            "type": "java",
+            "name": "KelheimSimWrapperRunner",
+            "request": "launch",
+            "mainClass": "org.matsim.dashboard.KelheimSimWrapperRunner",
+            "projectName": "matsim-kelheim"
+        },
+        {
+            "type": "java",
+            "name": "DrtFleetSizing",
+            "request": "launch",
+            "mainClass": "org.matsim.run.DrtFleetSizing",
+            "projectName": "matsim-kelheim"
+        },
+        {
+            "type": "java",
+            "name": "RunDrtOnlyScenario",
+            "request": "launch",
+            "mainClass": "org.matsim.run.RunDrtOnlyScenario",
+            "projectName": "matsim-kelheim"
+        },
+        {
+            "type": "java",
+            "name": "RunKelheimRealDrtDemands",
+            "request": "launch",
+            "mainClass": "org.matsim.run.RunKelheimRealDrtDemands",
+            "projectName": "matsim-kelheim"
+        },
+        {
+            "type": "java",
+            "name": "RunKelheimScenario",
+            "request": "launch",
+            "mainClass": "org.matsim.run.RunKelheimScenario",
+            "projectName": "matsim-kelheim",
+            "args": "run"
+        },
+        {
+            "type": "java",
+            "name": "PrepareDrtStops",
+            "request": "launch",
+            "mainClass": "org.matsim.run.prepare.PrepareDrtStops",
+            "projectName": "matsim-kelheim"
+        },
+        {
+            "type": "java",
+            "name": "PrepareNetwork",
+            "request": "launch",
+            "mainClass": "org.matsim.run.prepare.PrepareNetwork",
+            "projectName": "matsim-kelheim"
+        },
+        {
+            "type": "java",
+            "name": "PrepareNetworkChangeEvents",
+            "request": "launch",
+            "mainClass": "org.matsim.run.prepare.PrepareNetworkChangeEvents",
+            "projectName": "matsim-kelheim"
+        },
+        {
+            "type": "java",
+            "name": "PreparePopulation",
+            "request": "launch",
+            "mainClass": "org.matsim.run.prepare.PreparePopulation",
+            "projectName": "matsim-kelheim"
+        },
+        {
+            "type": "java",
+            "name": "PrepareRealDrtDemand",
+            "request": "launch",
+            "mainClass": "org.matsim.run.prepare.PrepareRealDrtDemand",
+            "projectName": "matsim-kelheim"
+        },
+        {
+            "type": "java",
+            "name": "PrepareTransitSchedule",
+            "request": "launch",
+            "mainClass": "org.matsim.run.prepare.PrepareTransitSchedule",
+            "projectName": "matsim-kelheim"
+        }
+    ]
+}
